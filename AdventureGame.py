@@ -1,7 +1,28 @@
 import random
 import AdventureGamesStory as ags
+import json
+import storyparts as sp
+
 
 coin = random.randint(0, 10)
+
+player_data = {}
+player_data['weapon'] = 'BFG'
+player_data['socks'] = 'Blue'
+player_data['car'] = 'Crown Vic'
+player_data['coin'] = coin
+#print('your coin toss was:', player_data['coin'])
+name = input('what is your name? ')
+player_data['name'] = name
+player_data['weapon'] = 'BFG'
+player_data['socks'] = 'Blue'
+player_data['car'] = 'Crown Vic'
+
+with open("player_file.json", "w") as outfile:
+    json.dump(player_data, outfile)
+
+sp.greet_player()
+
 print("You wake up in a space shuttle on the moon with a month's worth oxygen and no fuel to go home.")
 print("a.Check coms to see if theres connection.\nb. Explore shuttle")
 answer = input("What would you like to do?")
