@@ -1,0 +1,9 @@
+A glorious battle between two enemies is about to unveil.
+The fight will be shown as a series of interactions between the Great Warrior of the West(Who's name is Sherman) and the Mighty Warrior from the East(Who's name is Herman).
+LET THE BATTLE BEGIN!
+
+Sherman attacked Herman with the mighty knife for a total of 100 health points. Leaving Herman at 0 health points.
+Herman attacked Sherman with the powerful hammer for a total of 14 health points. Leaving Sherman at 86 health points.
+
+We Have our glorious victor!
+The Great Warrior of the West, Sherman, has defeated Herman!
