@@ -17,6 +17,11 @@ player_data['name'] = name
 player_data['weapon'] = 'BFG'
 player_data['socks'] = 'Blue'
 player_data['car'] = 'Crown Vic'
+player_data['breakfast'] = 'pancake'
+player_data['lunch'] = 'sandwich'
+player_data['cat'] = 'Garfield'
+player_data['dog'] = 'Snoopy'
+player_data['bird'] = 'Tweety'
 
 with open("player_file.json", "w") as outfile:
     json.dump(player_data, outfile)
