@@ -27,6 +27,7 @@ with open("player_file.json", "w") as outfile:
     json.dump(player_data, outfile)
 
 sp.greet_player()
+sp.story()
 
 print("You wake up in a space shuttle on the moon with a month's worth oxygen and no fuel to go home.")
 print("a.Check coms to see if theres connection.\nb. Explore shuttle")
