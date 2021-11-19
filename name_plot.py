@@ -56,5 +56,5 @@ plt.plot([19,19], second_line_of_s)
 
 
 # Show my Plotted name ELIAS
-
+plt.title('The Name "ELIAS" Plotted')
 plt.show()
